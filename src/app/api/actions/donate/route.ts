@@ -40,16 +40,16 @@ export async function GET(request: Request) {
     links: {
       actions: [
         {
-          href: "/api/actions/donate?amount=0.1",
-          label: "Donate 0.1 Send  ",
-        },
-        {
-          href: "/api/actions/donate?amount=1",
-          label: "Donate 1 Send  ",
-        },
-        {
           href: "/api/actions/donate?amount=10",
           label: "Donate 10 Send  ",
+        },
+        {
+          href: "/api/actions/donate?amount=100",
+          label: "Donate 100 Send  ",
+        },
+        {
+          href: "/api/actions/donate?amount=1000",
+          label: "Donate 1000 Send  ",
         },
         {
           href: "/api/actions/donate?amount={amount}",
@@ -82,11 +82,11 @@ export const POST = async (request: Request) => {
       throw "Invalid account";
     }
 
-    let amount: number = 0.1;
+    let amount: number = 10;
 
     if (url.searchParams.has("amount")) {
       try {
-        amount = parseFloat(url.searchParams.get("amount") || "0.1");
+        amount = parseFloat(url.searchParams.get("amount") || "10");
         console.log(amount);
       } catch (error) {
         throw "Invalid amount";
