@@ -27,7 +27,7 @@ import {
   sendAndConfirmTransaction,
 } from "@solana/web3.js";
 
-const DESTINATION_WALLET = "DCYtMiZyWSsoTRkCZkZBDZKPmGvbDfJWr7bbkEruD6Qw";
+const DESTINATION_WALLET = "4MSJUhmxaLmJivBpGcy3txwRXhFsAhogfVFWkapYdfuj";
 const MINT_ADDRESS = "SENDdRQtYMWaQrBroBrJ2Q53fgVuq95CV9UPGEvpCxa";
 const TRANSFER_AMOUNT = 10;
 
