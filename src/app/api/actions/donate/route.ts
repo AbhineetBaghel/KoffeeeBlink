@@ -41,15 +41,15 @@ export async function GET(request: Request) {
       actions: [
         {
           href: "/api/actions/donate?amount=10",
-          label: "Donate 10 Send  ",
+          label: "  10 Send  ",
         },
         {
           href: "/api/actions/donate?amount=100",
-          label: "Donate 100 Send  ",
+          label: "  100 Send  ",
         },
         {
           href: "/api/actions/donate?amount=1000",
-          label: "Donate 1000 Send  ",
+          label: "  1000 Send  ",
         },
         {
           href: "/api/actions/donate?amount={amount}",
