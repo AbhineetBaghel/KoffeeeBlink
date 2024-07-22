@@ -34,7 +34,7 @@ const TRANSFER_AMOUNT = 10;
 export async function GET(request: Request) {
   const response: ActionGetResponse = {
     icon: "https://koffeee-blink.vercel.app/2.png",
-    description: "Buy me a coffee W send",
+    description: "Buy me a CHAI With send",
     title: "Buy me a चाय",
     label: "Donate",
     links: {
