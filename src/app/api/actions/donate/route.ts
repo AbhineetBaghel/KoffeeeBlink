@@ -33,7 +33,7 @@ const TRANSFER_AMOUNT = 10;
 
 export async function GET(request: Request) {
   const response: ActionGetResponse = {
-    icon: "https://miro.medium.com/v2/resize:fit:640/format:webp/1*MgGIm08OdUTUvgNyaUl0hw.jpeg",
+    icon: "https://koffeee-blink.vercel.app/2.png",
     description: "Buy me a coffee W send",
     title: "Koffeee",
     label: "Donate",
