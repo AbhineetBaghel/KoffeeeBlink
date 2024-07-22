@@ -35,7 +35,7 @@ export async function GET(request: Request) {
   const response: ActionGetResponse = {
     icon: "https://koffeee-blink.vercel.app/2.png",
     description: "Buy me a coffee W send",
-    title: "Koffeee",
+    title: "Buy me a चाय",
     label: "Donate",
     links: {
       actions: [
